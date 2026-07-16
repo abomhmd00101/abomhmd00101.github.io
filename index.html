@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Laith's personal portfolio — cybersecurity, Python, and artificial intelligence projects." />
+    <title>Laith | Cybersecurity & AI</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/portfolio-data.js" defer></script>
+    <script src="assets/script.js" defer></script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Home page">
+        <span class="brand-mark">L<span>.</span></span>
+        <span class="brand-copy">Laith<small>Security Builder</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a data-nav="home" href="index.html">Home</a>
+        <a data-nav="projects" href="projects.html">Projects</a>
+        <a data-nav="skills" href="skills.html">Skills</a>
+        <a data-nav="contact" href="contact.html">Contact</a>
+        <a data-nav="manage" href="manage.html">Manage</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero shell">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span> Learning, building, and testing within authorized scope</div>
+          <h1>I turn security curiosity into <span class="gradient-text">tools that work.</span></h1>
+          <p class="hero-lead">
+            I'm Laith, a Python developer and cybersecurity enthusiast. I build recon tools and AI agents,
+            and organize CTF experiences that combine challenge design with practical engineering.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="projects.html">Explore projects <span aria-hidden="true">→</span></a>
+            <a class="button secondary" href="contact.html">Contact me</a>
+          </div>
+          <div class="mini-stack" aria-label="Core technologies">
+            <span>Python</span><span>AsyncIO</span><span>Web Security</span><span>CTF</span><span>AI Agents</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-one" aria-label="Technical summary">
+          <div class="terminal-card">
+            <div class="terminal-bar">
+              <span></span><span></span><span></span>
+              <code>~/laith/now</code>
+            </div>
+            <div class="terminal-body">
+              <p><b>$</b> profile --focus</p>
+              <p class="output">Offensive Security + AI</p>
+              <p><b>$</b> project --current</p>
+              <p class="output">AI Bug Bounty Agent <i>[building]</i></p>
+              <p><b>$</b> principle</p>
+              <p class="output">Build. Test. Document.<span class="caret">_</span></p>
+            </div>
+          </div>
+          <div class="orbit-badge badge-python">PY</div>
+          <div class="orbit-badge badge-shield">01</div>
+          <div class="orbit-badge badge-ai">AI</div>
+        </div>
+      </section>
+
+      <section class="proof shell section-space reveal">
+        <div class="proof-item">
+          <strong data-count="43">43</strong>
+          <span>Challenges in 0xV01D CTF</span>
+        </div>
+        <div class="proof-item">
+          <strong data-count="320">320</strong>
+          <span>Event participants</span>
+        </div>
+        <div class="proof-item">
+          <strong data-count="131">131</strong>
+          <span>Competing teams</span>
+        </div>
+        <div class="proof-item">
+          <strong>Top ~80</strong>
+          <span>Team ranking on CTFtime</span>
+        </div>
+      </section>
+
+      <section class="shell section-space">
+        <div class="section-heading reveal">
+          <div>
+            <span class="kicker">DOCUMENTED ARCHIVE</span>
+            <h2>From solved labs to challenge engineering</h2>
+          </div>
+          <a class="text-link" href="projects.html">Browse the full archive <span>→</span></a>
+        </div>
+        <div class="proof archive-proof reveal">
+          <div class="proof-item"><strong>71</strong><span>PortSwigger lab entries</span></div>
+          <div class="proof-item"><strong>16</strong><span>CTF challenge projects</span></div>
+          <div class="proof-item"><strong>3</strong><span>CSRF learning labs</span></div>
+          <div class="proof-item"><strong>6</strong><span>Python security scripts</span></div>
+        </div>
+      </section>
+
+      <section class="shell section-space">
+        <div class="section-heading reveal">
+          <div>
+            <span class="kicker">SELECTED WORK</span>
+            <h2>Projects that show how I think</h2>
+          </div>
+          <a class="text-link" href="projects.html">View all projects <span>→</span></a>
+        </div>
+
+        <div class="featured-grid">
+          <article class="project-card project-large reveal">
+            <div class="card-topline">
+              <span class="status active">In progress</span>
+              <span class="project-index">01</span>
+            </div>
+            <div>
+              <span class="project-type">AI × SECURITY</span>
+              <h3>AI Bug Bounty Agent</h3>
+              <p>A scalable security agent that orchestrates recon tools, collects evidence, and preserves results for reviewable reporting.</p>
+            </div>
+            <ul class="tag-list" aria-label="Technologies">
+              <li>Python</li><li>AsyncIO</li><li>LLM</li><li>Plugin Architecture</li>
+            </ul>
+            <a class="card-link" href="projects.html#ai-agent">Project details <span>↗</span></a>
+          </article>
+
+          <article class="project-card reveal delay-one">
+            <div class="card-topline">
+              <span class="status complete">Completed</span>
+              <span class="project-index">02</span>
+            </div>
+            <span class="project-type">CTF ENGINEERING</span>
+            <h3>0xV01D CTF</h3>
+            <p>A full technical event, from challenge design to infrastructure and scoreboard operations.</p>
+            <ul class="tag-list"><li>Infrastructure</li><li>Web</li><li>Crypto</li></ul>
+            <a class="card-link" href="projects.html#void-ctf">Project details <span>↗</span></a>
+          </article>
+
+          <article class="project-card reveal delay-two">
+            <div class="card-topline">
+              <span class="status lab">Learning lab</span>
+              <span class="project-index">03</span>
+            </div>
+            <span class="project-type">SECURITY AUTOMATION</span>
+            <h3>Async Recon Toolkit</h3>
+            <p>Independent scanners running concurrently through an extensible BaseScanner architecture.</p>
+            <ul class="tag-list"><li>httpx</li><li>BeautifulSoup</li><li>OOP</li></ul>
+            <a class="card-link" href="projects.html#recon-toolkit">Project details <span>↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="shell section-space now-section reveal">
+        <div>
+          <span class="kicker">NOW</span>
+          <h2>Building demonstrable experience, one project at a time.</h2>
+        </div>
+        <div class="now-list">
+          <div><span>01</span><p>Developing an AI agent for authorized offensive security workflows</p></div>
+          <div><span>02</span><p>Deepening web security skills and preparing for eJPTv2 / OSCP</p></div>
+          <div><span>03</span><p>Documenting projects and CTF writeups more clearly</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <p>Designed to grow with every new project.</p>
+      <p>© <span data-year></span> Laith</p>
+    </footer>
+  </body>
+</html>

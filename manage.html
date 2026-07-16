@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Local portfolio manager for achievements and social links." />
+    <title>Manage Portfolio | Laith</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/portfolio-data.js" defer></script>
+    <script src="assets/script.js" defer></script>
+    <script src="assets/manage.js" defer></script>
+  </head>
+  <body data-page="manage">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">L<span>.</span></span><span class="brand-copy">Laith<small>Security Builder</small></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a data-nav="home" href="index.html">Home</a><a data-nav="projects" href="projects.html">Projects</a><a data-nav="skills" href="skills.html">Skills</a><a data-nav="contact" href="contact.html">Contact</a><a data-nav="manage" href="manage.html">Manage</a>
+      </nav>
+    </header>
+
+    <main id="main" class="shell inner-main manage-main">
+      <section class="page-intro reveal">
+        <span class="kicker">LOCAL PORTFOLIO MANAGER</span>
+        <h1>Edit the archive.<br /><span class="gradient-text">Keep control locally.</span></h1>
+        <p>Update social links, edit existing achievements, or add new work. Changes are stored only in this browser and never sent to a server.</p>
+      </section>
+
+      <form id="portfolio-manager" class="manage-layout reveal delay-one">
+        <section class="manage-panel">
+          <div class="manager-heading">
+            <div><span class="kicker">SOCIAL LINKS</span><h2>Profiles</h2></div>
+            <span class="local-badge">Browser-only</span>
+          </div>
+          <div class="social-editor-grid">
+            <label>GitHub URL<input id="social-github" type="url" placeholder="https://github.com/username"></label>
+            <label>LinkedIn URL<input id="social-linkedin" type="url" placeholder="https://www.linkedin.com/in/username"></label>
+            <label>Discord URL<input id="social-discord" type="url" placeholder="https://discord.com/users/... or invite URL"></label>
+          </div>
+        </section>
+
+        <section class="manage-panel">
+          <div class="manager-heading">
+            <div><span class="kicker">ACHIEVEMENTS</span><h2>Portfolio entries</h2></div>
+            <button id="add-achievement" class="button secondary" type="button">Add achievement</button>
+          </div>
+          <div id="achievement-editors" class="achievement-editors"></div>
+        </section>
+
+        <section class="manager-actions">
+          <button class="button primary" type="submit">Save local changes</button>
+          <button id="export-manager" class="button secondary" type="button">Export JSON</button>
+          <label class="button secondary import-button">Import JSON<input id="import-manager" type="file" accept="application/json"></label>
+          <button id="reset-manager" class="danger-button" type="button">Reset defaults</button>
+          <p id="manager-note" class="form-note" role="status" aria-live="polite">No changes leave this device.</p>
+        </section>
+      </form>
+    </main>
+
+    <footer class="site-footer shell"><p>Local edits stay in your browser until you export them.</p><p>© <span data-year></span> Laith</p></footer>
+  </body>
+</html>
+
