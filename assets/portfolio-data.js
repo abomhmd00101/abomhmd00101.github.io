@@ -27,18 +27,18 @@ window.PORTFOLIO_DEFAULTS = {
     },
     {
       id: "recon-toolkit",
-      title: "Async Recon Toolkit",
-      description: "Python scanner experiments for DNS, HTTP, JavaScript, robots.txt, sitemaps, crawling, and reflected-XSS checks.",
-      github: "https://github.com/abomhmd00101/python-security-tools",
+      title: "Async Web Recon Agent",
+      description: "A modular asynchronous Python agent for lightweight HTTP, security-header, cookie, CORS, robots.txt, sitemap, title, and technology checks on authorized targets.",
+      github: "https://github.com/abomhmd00101/async-web-recon-agent",
       category: "security tools",
-      tags: ["Python", "Requests", "OOP", "BeautifulSoup"],
-      status: "Learning lab",
-      type: "SECURITY AUTOMATION"
+      tags: ["Python", "AsyncIO", "httpx", "BeautifulSoup"],
+      status: "Work in progress",
+      type: "ASYNC SECURITY AUTOMATION"
     },
     {
       id: "portswigger-writeups",
       title: "PortSwigger Academy Lab Notes",
-      description: "Seventy-one Arabic and English writeups across eight Web Security Academy topics, with a loss-preserving Notion export.",
+      description: "Reviewed English writeups across eight Web Security Academy topics, organized from the original Notion notes.",
       github: "https://github.com/abomhmd00101/portswigger-lab-writeups",
       category: "security labs",
       tags: ["PortSwigger", "XSS", "SQLi", "CSRF"],
@@ -87,4 +87,3 @@ window.PORTFOLIO_DEFAULTS = {
     }
   ]
 };
-
