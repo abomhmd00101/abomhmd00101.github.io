@@ -27,13 +27,13 @@ window.PORTFOLIO_DEFAULTS = {
     },
     {
       id: "recon-toolkit",
-      title: "Async Web Recon Agent",
-      description: "A modular asynchronous Python agent for lightweight HTTP, security-header, cookie, CORS, robots.txt, sitemap, title, and technology checks on authorized targets.",
-      github: "https://github.com/abomhmd00101/async-web-recon-agent",
+      title: "Ai_Recone_agent v3.0",
+      description: "The third version of my modular asynchronous reconnaissance agent, now saving versioned JSON reports that are ready for future AI-assisted analysis.",
+      github: "https://github.com/abomhmd00101/Ai_Recone_agent_v3.0",
       category: "security tools",
-      tags: ["Python", "AsyncIO", "httpx", "BeautifulSoup"],
-      status: "Work in progress",
-      type: "ASYNC SECURITY AUTOMATION"
+      tags: ["Python", "AsyncIO", "JSON", "AI-ready"],
+      status: "v3.0 — Work in progress",
+      type: "AI-READY RECON AUTOMATION"
     },
     {
       id: "portswigger-writeups",
